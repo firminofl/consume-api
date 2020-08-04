@@ -1,0 +1,28 @@
+{
+    "name": "consuming_api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "nodemon src/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/firminofl/consuming-api.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/firminofl/consuming-api/issues"
+    },
+    "homepage": "https://github.com/firminofl/consuming-api#readme",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "cors": "^2.8.5",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
